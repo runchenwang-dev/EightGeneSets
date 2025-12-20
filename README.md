@@ -6,4 +6,8 @@ These gene sets are derived from:
 
 3. Sibai M, Cervilla S, Grases D, et al. The spatial landscape of cancer hallmarks reveals patterns of tumor ecological dynamics and drug sensitivity. Cell Rep. 2025;44(2):115229. doi:10.1016/j.celrep.2024.115229
 
-The similarity test is based on MsigDB GO annotations (https://www.gsea-msigdb.org/gsea/index.jsp), not the internal database to ensure reproduce. 
+Details for testing: 
+
+- All test times reported in this paper are calculated from the second run onward to simulate real-world usage, excluding cold-start results. EnrichGT’s caching system stores loaded gene sets to accelerate subsequent enrichment analysis.
+
+- The similarity test is based on MsigDB GO annotations (https://www.gsea-msigdb.org/gsea/index.jsp), not the internal database to ensure reproduce. 
